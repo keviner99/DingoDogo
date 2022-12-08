@@ -103,6 +103,8 @@ main div {
 
 .article {
     display: grid;
+    margin-top: -40px;
+    padding: 0%;
 }
 
 .article-image {
@@ -111,6 +113,10 @@ main div {
 
 .article-1 {
     text-align: center;
+}
+
+.article-1 p {
+    margin-top: -40px;
 }
 
 img {
