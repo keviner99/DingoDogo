@@ -42,6 +42,7 @@
 
     nav ul li {
         float: left;
+        font-size: 0.8em;
     }
 
     footer p {
@@ -54,10 +55,20 @@
     }
 
     #resumen-image{
-        float: right;
         padding: .9em;
     }
 
+    .juegos,
+    .productos,
+    .products,
+    .juego {
+        text-align: center;
+    }
+
+    .article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
 
 }

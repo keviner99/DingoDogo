@@ -104,8 +104,11 @@ main div {
 }
 
 .article-image {
-    float: right;
     padding: 0.5em;
+}
+
+.article-1 {
+    text-align: center;
 }
 
 img {
@@ -118,5 +121,14 @@ footer {
     color: white;
     justify-content: center;
     justify-items: center;
+    text-align: center;
+}
+
+.products,
+.juegos {
+    text-align: center;
+}
+
+#resumen {
     text-align: center;
 }
