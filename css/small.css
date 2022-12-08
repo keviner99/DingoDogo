@@ -79,6 +79,8 @@ nav {
     display: block;
     color: white;
     text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .responsive li {
@@ -91,7 +93,7 @@ nav a:hover {
 }
 
 .menuname {
-    background-color: #62C76C;
+    background-color: #733823;
 }
 
 main div {
@@ -132,3 +134,4 @@ footer {
 #resumen {
     text-align: center;
 }
+

@@ -56,6 +56,12 @@
 
     #resumen-image{
         padding: .9em;
+        height: 400px;
+    }
+
+    .imagenes {
+        height: 350px;
+        width: 400px;
     }
 
     .juegos,
