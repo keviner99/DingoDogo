@@ -1,0 +1,63 @@
+@media only screen and (min-width: 40em) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3,
+    p {
+        font-size: 23px;
+    }
+
+    main,
+    footer {
+        max-width: 100%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation a {
+        font-size: 25px;
+    }
+
+    nav ul {
+        flex-flow: row wrap;
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    footer p {
+        font-size: 23px;
+    }
+
+    .father {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #resumen-image{
+        float: right;
+        padding: .9em;
+    }
+
+
+
+}

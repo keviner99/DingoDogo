@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Roboto',sans-serif;*/
+main{
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em;
+}
+
+p {
+    display: block;
+    padding: 0.8em;
+    margin: .4em;
+}
+
+a {
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+footer,
+main {
+    max-width: 80em;
+    margin: 0 auto;
+    color: black;
+}
+
+header,
+nav {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #733823;
+    color: white;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    height: auto;
+}
+
+nav {
+    background-color: #D68D54;
+}
+
+.navigation {
+    list-style: none;
+    background-color: #D68D54;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:hover {
+    background-color: #D6EEE9;
+    color: #733823;
+}
+
+.menuname {
+    background-color: #62C76C;
+}
+
+main div {
+    background-color: #4E7151;
+    color: white;
+}
+
+.article {
+    display: grid;
+}
+
+.article-image {
+    float: right;
+    padding: 0.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #733823;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
