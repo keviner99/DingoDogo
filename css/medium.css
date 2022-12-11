@@ -60,14 +60,15 @@
     }
 
     .imagenes {
-        height: 350px;
+        height: 450px;
         width: 400px;
     }
 
     .juegos,
     .productos,
     .products,
-    .juego {
+    .juego,
+    .info {
         text-align: center;
     }
 
