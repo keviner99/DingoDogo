@@ -16,6 +16,7 @@ p {
     display: block;
     padding: 0.8em;
     margin: .4em;
+    
 }
 
 a {
@@ -103,7 +104,7 @@ main div {
 
 .article {
     display: grid;
-    margin-top: -40px;
+    margin-top: -33px;
     padding: 0%;
 }
 
@@ -140,5 +141,17 @@ footer {
 
 #resumen {
     text-align: center;
+}
+
+.text {
+    margin-top: -40px;
+}
+
+#contacto {
+    margin-top: -25px;
+}
+
+.contact-img {
+    padding: 0.5em;
 }
 
