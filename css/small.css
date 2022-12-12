@@ -155,3 +155,22 @@ footer {
     padding: 0.5em;
 }
 
+#button:link, #button:visited {
+    background-color: #D68D54;
+    color:white;
+    font-size: 30px;
+    padding: 14px 25px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#button:hover {
+    background-color: #733823;
+}
+
+.btn {
+    text-align: center;
+}
+
